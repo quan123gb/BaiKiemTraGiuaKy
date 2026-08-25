@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+div.background {
+    width: 1440px;
+    height: 1024px;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+/* --- Header & Navigation --- */
+div.background h1 {
+    position: absolute;
+    top: 46px;
+    left: 40px;
+    width: 151px;
+    height: 54px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+div.background div.phanGiua div.chucNang {
+    width: 499px;
+    height: 44px;
+    gap: 45px;
+    position: absolute;
+    top: 51px;
+    left: 365px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/* --- Sidebar Bên Trái --- */
+div.background div.benTrai {
+    width: 254px;
+    height: 783px;
+    background-color: #000000;
+    position: absolute;
+    top: 149px;
+    left: 41px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+div.background div.benTrai div.trangChu {
+    width: 180px;
+    height: 390px;
+    position: absolute;
+    top: 58px;
+    left: 25px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.background div.benTrai div.trangChu div.phan1 {
+    background-color: #A717FE;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 20px;
+    font-weight: bold;
+}
+
+div.background div.benTrai div.trangChu div.phan2 {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+    width: 170px;
+    height: 30px;
+}
+
+div.background div.benTrai div.thanhCongCu div.dangXuat {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+    width: 119px;
+    height: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
+
+/* --- Content Headers & Buttons --- */
+div.background div.da {
+    position: absolute;
+    width: 158px;
+    height: 56px;
+    top: 138px;
+    left: 331px;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+div.background div.phuongThuc {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    top: 208px;
+    left: 341px;
+    position: absolute;
+    z-index: 2;
+}
+
+div.background div.phuongThuc p {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 233px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+/* --- Main Cards --- */
+div.background div.cardRequestLoan {
+    width: 345px;
+    height: 321px;
+    background-color: #000109;
+    border-radius: 15px;
+    position: absolute;
+    top: 401px;
+    left: 341px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+div.background div.cardRequestLoan p {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 180px;
+}
+
+div.background div.cardRepaymentPlan {
+    width: 345px;
+    height: 321px;
+    background-color: #000000;
+    border-radius: 15px;
+    position: absolute;
+    top: 401px;
+    left: 708px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+div.background div.cardRepaymentPlan p {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    width: 220px;
+}
+
+div.background div.cardLatestUpdate {
+    width: 300px;
+    height: 500px;
+    background-color: #000000;
+    border: 1px solid #6D9BB5;
+    border-radius: 10px;
+    position: absolute;
+    top: 348px;
+    left: 1100px;
+    padding: 24px 20px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    z-index: 2;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+div.background div.cardLatestUpdate h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.background div.cardLatestUpdate p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    color: #E0E0E0;
+}
+
+div.background div.cardLoanStatus {
+    width: 412px;
+    height: 96px;
+    background-color: #000000;
+    border-radius: 10px;
+    position: absolute;
+    top: 835px;
+    left: 492px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+div.background div.cardLoanStatus p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* --- Top Right Profile & Header Elements --- */
+div.background div.btnReviews {
+    width: 226px;
+    height: 50px;
+    position: absolute;
+    top: 141px;
+    left: 1174px;
+    border: 1.5px solid #7200B8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    z-index: 2;
+    cursor: pointer;
+}
+
+div.background div.btnReviews p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.background div.chuong {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 61px;
+    left: 1123px;
+    z-index: 2;
+}
+
+div.background div.chuong img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+div.background div.nhanVat {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 43px;
+    left: 1176px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+div.background div.nhanVat img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tenNhanVat {
+    position: absolute;
+    top: 55px;
+    left: 1263px;
+    width: 140px;
+    height: 36px;
+    color: #7200B8;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+/* --- Chat Widget --- */
+div.background div.nhanTin {
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    top: 858px;
+    left: 1190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+div.background div.nhanTin p {
+    color: #7200B8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.background div.nhanTin img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
